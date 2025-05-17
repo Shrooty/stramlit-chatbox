@@ -13,7 +13,7 @@ llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash")
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = [SystemMessage(content="You are a helpful assistant.")]
 
-st.title("🧠 Shrooty Chat Assistant")
+st.title("🧠 Gemini Chat Assistant")
 
 # Chat interface
 user_input = st.chat_input("Say something...")
